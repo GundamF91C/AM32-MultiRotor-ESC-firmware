@@ -202,6 +202,8 @@
 #define HARDWARE_GROUP_F0_A
 #define USE_SERIAL_TELEMETRY
 #define PA6_VOLTAGE
+#define MILLIVOLT_PER_AMP       35
+#define CURRENT_OFFSET          0
 #define TARGET_VOLTAGE_DIVIDER  140
 #define USE_RGB_LED
 #endif
