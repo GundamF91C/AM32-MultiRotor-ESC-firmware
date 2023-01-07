@@ -195,6 +195,16 @@
 #define USE_SERIAL_TELEMETRY
 #define TARGET_STALL_PROTECTION_INTERVAL 9000
 #endif
+
+#ifdef DYS_ARIA70
+#define FIRMWARE_NAME           "DYS Aria70"
+#define DEAD_TIME               45
+#define HARDWARE_GROUP_F0_A
+#define USE_SERIAL_TELEMETRY
+#define PA6_VOLTAGE
+#define TARGET_VOLTAGE_DIVIDER  140
+#define USE_RGB_LED
+#endif
 /*******************************   G071 Targets *********************************/
 
 #ifdef G071_64K
